@@ -9,7 +9,7 @@ setuptools.setup(
      description="A calculator utility package",
      long_description=long_description,
      slong_description_content_type="text/markdown",
-     url="https://github.com/javatechy/dokr",
+     url="https://github.com/Spanarchian/calculator",
      packages=setuptools.find_packages(),
      classifiers=[
          "Programming Language :: Python :: 3",

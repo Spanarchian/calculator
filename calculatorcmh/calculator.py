@@ -1,27 +1,34 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""Example Google style docstrings."""
 
 
 def helloworld():
+    """Return the pathname of the KOS root directory."""
     print("Hello World ! this is my first pip package")
 
 
-def sum(x):
-    y = x+x
-    return y
+def plus(ref):
+    """Return the pathname of the KOS root directory."""
+    res = ref+ref
+    return res
 
 
-def sqr(x):
-    return x * x
+def sqr(ref):
+    """Return the pathname of the KOS root directory."""
+    return ref * ref
 
 
-def cube(x):
-    return x * x * x
+def cube(ref):
+    """Return the pathname of the KOS root directory."""
+    return ref * ref * ref
 
 
-def name(x):
-    numNames = ["Zero", "One", "Two", "Three", "Four", "To be added"]
-    if x < 5:
-        name = numNames[x]
+def name(ref):
+    """Return the pathname of the KOS root directory."""
+    numnames = ["Zero", "One", "Two", "Three", "Four", "To be added"]
+    if ref < 5:
+        spelling = numnames[ref]
     else:
-        name = numNames[5]
-    return name
+        spelling = numnames[5]
+    return spelling

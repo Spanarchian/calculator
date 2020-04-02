@@ -2,7 +2,7 @@ from calculatorcmh import calculator
 
 
 def test_sum():
-    act = calculator.sum(3)
+    act = calculator.plus(3)
     exp = 6
     assert act == exp, "Sum not calculated as expected"
 
